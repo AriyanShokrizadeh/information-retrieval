@@ -1,0 +1,22 @@
+data_ingestion:
+  root_dir: "resources/raw"
+
+  datasets:
+    train:
+      passages: "train/passages.json"
+    test:
+      judgments: "test/judg.json"
+      passages: "test/passages.json"
+      questions: "test/questions.json"
+    validation:
+      judgments: "val/judg.json"
+      passages: "val/passages.json"
+      questions: "val/questions.json"
+
+  stopwords_path: "./resources/stopwords.txt"
+
+vocabulary:
+  vocab_size: 500
+  vocab_dir: "./resources/vocab"
+  tokens: "tokens.json"
+
