@@ -15,9 +15,11 @@ data_ingestion:
 
   stopwords_path: "./resources/stopwords.txt"
 
-vocabulary:
+vocabulary_settings:
   vocab_size: 500
   vocab_dir: "./resources/vocab"
   tokens: "tokens.json"
 
-imgs_dir : './imgs'
+image_settings:
+  imgs_dir: './imgs'
+  results_plot: 'results.png'
