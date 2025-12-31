@@ -100,6 +100,7 @@ We evaluated the models on a test dataset containing ad-hoc queries. The Bigram 
 
 ## Visualization
 The following chart illustrates the performance gap between the methods:
+
 ![alt text](imgs/results.png)
 ## 📜 License
 This project is licensed under the MIT License.
