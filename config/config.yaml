@@ -20,3 +20,4 @@ vocabulary:
   vocab_dir: "./resources/vocab"
   tokens: "tokens.json"
 
+imgs_dir : './imgs'
