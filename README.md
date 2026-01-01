@@ -77,11 +77,11 @@ Ensure your dataset files are placed in the resources/ directory as configured i
 ├── pipeline/
 │   └── run.py             # Main entry point for the pipeline
 ├── src/
-│   ├── bm25_retriever.py  # BM25 Logic
+│   ├── bm25_retriever.py     # BM25 Logic
 │   ├── language_retriever.py # Unigram & Bigram Logic
-│   ├── fine_tuning.py     # Hyperparameter grid search
-│   ├── metrics.py         # Evaluator (MAP, MRR, P@5)
-│   ├── utils.py           # Tokenization and helpers
+│   ├── fine_tuning.py        # Hyperparameter grid search
+│   ├── metrics.py            # Evaluator (MAP, MRR, P@5)
+│   ├── utils.py              # Tokenization and helpers
 │   └── ...
 ├── resources/
 │   ├── raw/               # Dataset JSON files
